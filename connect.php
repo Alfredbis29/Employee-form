@@ -6,7 +6,7 @@
 	$password = $_POST['password'];
 	$number = $_POST['number'];
 
-	// Database connection
+	// Database connection...
 	$conn = new mysqli('localhost','root','','test');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
